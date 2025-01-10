@@ -22,7 +22,7 @@ If Docker is not installed, follow the instructions at [Docker Installation Guid
 docker compose up
 ```
 
-5. Open your browser and navigate to `http://localhost:8888` to access the Jupyter Notebook interface.
+5. Open your browser and navigate to [http://127.0.0.1:8888/lab/tree/work/blsky-agent.ipynb](http://127.0.0.1:8888/lab/tree/work/blsky-agent.ipynb) to access the Jupyter Notebook interface.
 
 6. Open the `blsky-agent.ipynb` notebook and run the cells.
 
