@@ -1,5 +1,5 @@
 {
-  "pipeline": {
+  "tasks": {
     "dev": {
       "cache": false
     },
@@ -9,6 +9,14 @@
     },
     "type-check": {
       "outputs": []
+    },
+    "test": {
+      "outputs": ["coverage/**"],
+      "dependsOn": []
+    },
+    "test:watch": {
+      "cache": false,
+      "persistent": true
     }
   }
 } 
