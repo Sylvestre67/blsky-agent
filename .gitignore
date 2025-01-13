@@ -75,6 +75,7 @@ venv.bak/
 # Node
 node_modules/
 .pnpm-store/
+coverage/
 
 # TypeScript
 *.tsbuildinfo
