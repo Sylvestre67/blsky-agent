@@ -1,11 +1,11 @@
 import express from 'express';
-import { Middleware } from './middleware/requestLogger';
+import { RequestLog } from './middleware/request-log.middleware';
 import { HealthController } from './controllers/health.controller';
 
 const app = express();
 
 // Middleware
-app.use(Middleware.requestLog);
+app.use(RequestLog.log);
 
 // Routes
 app.get('/health', HealthController.check);
