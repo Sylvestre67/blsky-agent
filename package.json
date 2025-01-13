@@ -7,9 +7,11 @@
     "dev": "turbo run dev",
     "type-check": "turbo run type-check",
     "test": "turbo run test",
-    "test:watch": "turbo run test:watch"
+    "test:watch": "turbo run test:watch",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json,yaml,yml}\""
   },
   "devDependencies": {
-    "turbo": "latest"
+    "turbo": "latest",
+    "prettier": "^3.2.5"
   }
-} 
+}

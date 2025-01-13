@@ -5,4 +5,4 @@ export class Middleware {
     console.log(`${req.method} | ${req.path} | ${req.get('user-agent')}`);
     next();
   }
-} 
+}

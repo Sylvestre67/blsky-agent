@@ -94,6 +94,7 @@ pnpm-debug.log*
 # Environment
 .env
 !.env.example
+.tokens
 
 # IDE
 .idea/
