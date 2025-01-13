@@ -5,7 +5,7 @@ import { HealthController } from './controllers/health.controller';
 const app = express();
 
 // Middleware
-app.use(Middleware.requesstLog);
+app.use(Middleware.requestLog);
 
 // Routes
 app.get('/health', HealthController.check);
