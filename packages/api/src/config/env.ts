@@ -7,7 +7,7 @@ config({ path: findConfig('.env') || '' });
 export const env = {
   PORT: process.env.PORT || '3000',
   TOKEN_SECRET:
-    process.env.TOKEN_SECRET || crypto.randomBytes(32).toString('hex'),
+    process.env.TOKEN_SECRET,
   BLSKY_USERNAME: process.env.BLSKY_USERNAME,
   BLSKY_PASSWORD: process.env.BLSKY_PASSWORD,
   OPENAI_API_KEY: process.env.OPENAI_API_KEY,
