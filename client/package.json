@@ -1,0 +1,24 @@
+{
+  "name": "blsky-agent-client",
+  "version": "1.0.0",
+  "description": "Client-facing application using Remix for SSR",
+  "main": "index.js",
+  "scripts": {
+    "dev": "remix dev",
+    "build": "remix build",
+    "start": "remix-serve build"
+  },
+  "dependencies": {
+    "@remix-run/node": "^1.0.0",
+    "@remix-run/react": "^1.0.0",
+    "@remix-run/serve": "^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.0.0",
+    "typescript": "^4.4.3"
+  },
+  "author": "Sylvestre",
+  "license": "MIT"
+}
